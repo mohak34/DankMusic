@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Dank Music</title>
+
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap and CSS stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">Dank Music</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Dive into the ocean of songs and soundtracks.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"> Download for Android</i></button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fa-brands fa-google-play"> Download for iOS</span></button>
+        </div>
+        <div class="col-lg-6">
+          <img class="headphones" src="images/headphones-cover.jpg" alt="headphones">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+
+      <div class="col-lg-4 feature-box">
+        <img class="feature-logo" src="images/tickmark.jpg" alt="<tickmark-image">
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <img class="feature-logo" src="images/music.jpg" alt="music-image">
+        <h3>Elite Clientele</h3>
+        <p>Songs airing from all over the world.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <img class="feature-logo" src="images/download.jpg" alt="download-image">
+        <h3>Listen offline</h3>
+        <p>Download songs to listen offline.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- genre -->
+
+  <section id="genre">
+
+    <h2 class="trending-songs"><strong>Trending Songs of the month</strong></h2>
+
+    <div id="best-artists" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="genre-image" src="images/as-it-was.jpg" alt="as-it-was"><br>
+          <img class="genre-artist" src="images/harry.jpg" alt="harry">
+          <h4 class="artist">As it was<br>Harry Styles</h4>
+        </div>
+        <div class="carousel-item">
+          <img class="genre-image" src="images/heat-waves.jpg" alt="heat-waves"><br>
+          <img class="genre-artist" src="images/glass-animals.jpg" alt="glass-animals">
+          <h4 class="artist">Heat Waves<br>Glass Animals</h4>
+        </div>
+        <div class="carousel-item">
+          <img class="genre-image" src="images/ghost.jpg" alt="ghost"><br>
+          <img class="genre-artist" src="images/justin.jpg" alt="justin">
+          <h4 class="artist">Ghost<br>Justin Bieber</h4>
+        </div>
+        <div class="carousel-item">
+          <img class="genre-image" src="images/glimpse-of-us.jpg" alt="glimpse-of-us"><br>
+          <img class="genre-artist" src="images/joji.jpg" alt="joji">
+          <h4 class="artist">Glimpse of us<br>Joji</h4>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#best-artists" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#best-artists" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Everyone's needs.</h2>
+    <p>Simple and affordable price plans to enjoy ad free music.</p>
+
+    <div class="row">
+      <div class="column-pricing col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Weekly</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹30/week</h2>
+            <p>Ad free istening</p>
+            <p>Download 30 songs on 1 mobile device</p>
+            <p>Group Session</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">View Plan</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column-pricing col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Individual</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹99/monthly</h2>
+            <p>Ad-free music listening</p>
+            <p>Download 10k songs/device on 5 devices</p>
+            <p>Group Session</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">View Plan</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column-pricing col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Duo</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹129/monthly</h2>
+            <p>Ad-free music listening</p>
+            <p>Download 10k songs/device, on 5 devices per account</p>
+            <p>Group Session</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">View Plan</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column-pricing col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Family</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹159/monthly</h2>
+            <p>Ad-free music listening</p>
+            <p>Download 10k songs/device, on 5 devices per account</p>
+            <p>Group Session</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">View Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h4>Your favorite music just got even better.</h4>
+    <button type="button" class="btn btn-dark btn-lg download-btn"> <strong>Download for Android</strong></button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn"> <strong>Download for iOS</strong></button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright DankMusic</p>
+
+  </footer>
+
+
+</body>
+
+</html>
